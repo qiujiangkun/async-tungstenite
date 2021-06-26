@@ -13,7 +13,7 @@ edition = "2018"
 readme = "README.md"
 
 [features]
-default = []
+default = ["no-verbose-logging"]
 async-std-runtime = ["async-std"]
 tokio-runtime = ["tokio"]
 gio-runtime = ["gio", "glib"]
